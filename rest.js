@@ -13,6 +13,8 @@ console.log(sum(1,2,3,4,5,6,7));
 //Using the new method ES6
 
 function sum_rest(...args){
+    //typeof(args) == 'array';
+    //array.reduce((accm, currentV) => accm + currentV);
    return args.reduce((accumulator, currentValue) => accumulator + currentValue); //using reduce...
 } //Rest Operator
 
